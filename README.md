@@ -16,6 +16,7 @@ UID3 = "XYZ" # Replace with the UID of third Servo Bricklet
 To run the node:
 ```
 mkdir workspace
+cd workspace
 git clone https://github.com/mazeninvent/pib-motor_control.git
 colcon build --packages-select cerebra
 cd install
