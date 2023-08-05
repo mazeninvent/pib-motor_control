@@ -1,0 +1,50 @@
+[0.252s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.252s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1bfba70220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1bfc23e050>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1bfc23e050>>)
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.281s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pib/pibros/install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) ignored
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.302s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/pib/workspace/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.302s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/pib/workspace/src/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.302s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/pib/ros2_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.302s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pib/workspace/install/cerebra' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.302s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pib/workspace/src/install/cerebra' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.302s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pib/ros2_ws/install/cerebra' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.302s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pib/ros2_ws/install/my_rosbridge_node' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.303s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pib/pibros/install
+[0.304s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 186 installed packages in /opt/ros/humble
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.355s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.363s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.363s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.363s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.364s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.368s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.368s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.368s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.381s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.386s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.386s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pib/pibros/install/install/local_setup.ps1'
+[0.387s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pib/pibros/install/install/_local_setup_util_ps1.py'
+[0.389s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pib/pibros/install/install/setup.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pib/pibros/install/install/local_setup.sh'
+[0.394s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pib/pibros/install/install/_local_setup_util_sh.py'
+[0.394s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pib/pibros/install/install/setup.sh'
+[0.397s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pib/pibros/install/install/local_setup.bash'
+[0.397s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pib/pibros/install/install/setup.bash'
+[0.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pib/pibros/install/install/local_setup.zsh'
+[0.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pib/pibros/install/install/setup.zsh'

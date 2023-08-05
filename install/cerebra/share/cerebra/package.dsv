@@ -1,0 +1,6 @@
+source;share/cerebra/hook/pythonpath.ps1
+source;share/cerebra/hook/pythonpath.dsv
+source;share/cerebra/hook/pythonpath.sh
+source;share/cerebra/hook/ament_prefix_path.ps1
+source;share/cerebra/hook/ament_prefix_path.dsv
+source;share/cerebra/hook/ament_prefix_path.sh

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/cerebra/cerebra.egg-info
+writing ../../build/cerebra/cerebra.egg-info/PKG-INFO
+writing dependency_links to ../../build/cerebra/cerebra.egg-info/dependency_links.txt
+writing entry points to ../../build/cerebra/cerebra.egg-info/entry_points.txt
+writing requirements to ../../build/cerebra/cerebra.egg-info/requires.txt
+writing top-level names to ../../build/cerebra/cerebra.egg-info/top_level.txt
+writing manifest file '../../build/cerebra/cerebra.egg-info/SOURCES.txt'
+reading manifest file '../../build/cerebra/cerebra.egg-info/SOURCES.txt'
+writing manifest file '../../build/cerebra/cerebra.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pib/pibros/build/cerebra/build
+creating /home/pib/pibros/build/cerebra/build/lib
+creating /home/pib/pibros/build/cerebra/build/lib/cerebra
+copying cerebra/motor_control.py -> /home/pib/pibros/build/cerebra/build/lib/cerebra
+copying cerebra/__init__.py -> /home/pib/pibros/build/cerebra/build/lib/cerebra
+running install
+running install_lib
+creating /home/pib/pibros/install/cerebra/lib/python3.10/site-packages/cerebra
+copying /home/pib/pibros/build/cerebra/build/lib/cerebra/motor_control.py -> /home/pib/pibros/install/cerebra/lib/python3.10/site-packages/cerebra
+copying /home/pib/pibros/build/cerebra/build/lib/cerebra/__init__.py -> /home/pib/pibros/install/cerebra/lib/python3.10/site-packages/cerebra
+byte-compiling /home/pib/pibros/install/cerebra/lib/python3.10/site-packages/cerebra/motor_control.py to motor_control.cpython-310.pyc
+byte-compiling /home/pib/pibros/install/cerebra/lib/python3.10/site-packages/cerebra/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/pib/pibros/install/cerebra/share/ament_index
+creating /home/pib/pibros/install/cerebra/share/ament_index/resource_index
+creating /home/pib/pibros/install/cerebra/share/ament_index/resource_index/packages
+copying resource/cerebra -> /home/pib/pibros/install/cerebra/share/ament_index/resource_index/packages
+copying package.xml -> /home/pib/pibros/install/cerebra/share/cerebra
+running install_egg_info
+Copying ../../build/cerebra/cerebra.egg-info to /home/pib/pibros/install/cerebra/lib/python3.10/site-packages/cerebra-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_control script to /home/pib/pibros/install/cerebra/lib/cerebra
+writing list of installed files to '/home/pib/pibros/build/cerebra/install.log'

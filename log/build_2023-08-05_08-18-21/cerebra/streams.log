@@ -1,0 +1,39 @@
+[0.524s] Invoking command in '/home/pib/pibros/src/cerebra': PYTHONPATH=/home/pib/pibros/build/cerebra/prefix_override:/home/pib/pibros/install/cerebra/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cerebra build --build-base /home/pib/pibros/build/cerebra/build install --record /home/pib/pibros/build/cerebra/install.log --single-version-externally-managed
+[0.721s] running egg_info
+[0.721s] creating ../../build/cerebra/cerebra.egg-info
+[0.721s] writing ../../build/cerebra/cerebra.egg-info/PKG-INFO
+[0.722s] writing dependency_links to ../../build/cerebra/cerebra.egg-info/dependency_links.txt
+[0.722s] writing entry points to ../../build/cerebra/cerebra.egg-info/entry_points.txt
+[0.722s] writing requirements to ../../build/cerebra/cerebra.egg-info/requires.txt
+[0.722s] writing top-level names to ../../build/cerebra/cerebra.egg-info/top_level.txt
+[0.722s] writing manifest file '../../build/cerebra/cerebra.egg-info/SOURCES.txt'
+[0.723s] reading manifest file '../../build/cerebra/cerebra.egg-info/SOURCES.txt'
+[0.724s] writing manifest file '../../build/cerebra/cerebra.egg-info/SOURCES.txt'
+[0.724s] running build
+[0.724s] running build_py
+[0.724s] creating /home/pib/pibros/build/cerebra/build
+[0.725s] creating /home/pib/pibros/build/cerebra/build/lib
+[0.725s] creating /home/pib/pibros/build/cerebra/build/lib/cerebra
+[0.725s] copying cerebra/motor_control.py -> /home/pib/pibros/build/cerebra/build/lib/cerebra
+[0.725s] copying cerebra/__init__.py -> /home/pib/pibros/build/cerebra/build/lib/cerebra
+[0.725s] running install
+[0.725s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.725s]   warnings.warn(
+[0.725s] running install_lib
+[0.726s] creating /home/pib/pibros/install/cerebra/lib/python3.10/site-packages/cerebra
+[0.726s] copying /home/pib/pibros/build/cerebra/build/lib/cerebra/motor_control.py -> /home/pib/pibros/install/cerebra/lib/python3.10/site-packages/cerebra
+[0.726s] copying /home/pib/pibros/build/cerebra/build/lib/cerebra/__init__.py -> /home/pib/pibros/install/cerebra/lib/python3.10/site-packages/cerebra
+[0.726s] byte-compiling /home/pib/pibros/install/cerebra/lib/python3.10/site-packages/cerebra/motor_control.py to motor_control.cpython-310.pyc
+[0.726s] byte-compiling /home/pib/pibros/install/cerebra/lib/python3.10/site-packages/cerebra/__init__.py to __init__.cpython-310.pyc
+[0.726s] running install_data
+[0.727s] creating /home/pib/pibros/install/cerebra/share/ament_index
+[0.727s] creating /home/pib/pibros/install/cerebra/share/ament_index/resource_index
+[0.727s] creating /home/pib/pibros/install/cerebra/share/ament_index/resource_index/packages
+[0.727s] copying resource/cerebra -> /home/pib/pibros/install/cerebra/share/ament_index/resource_index/packages
+[0.727s] copying package.xml -> /home/pib/pibros/install/cerebra/share/cerebra
+[0.727s] running install_egg_info
+[0.728s] Copying ../../build/cerebra/cerebra.egg-info to /home/pib/pibros/install/cerebra/lib/python3.10/site-packages/cerebra-0.0.0-py3.10.egg-info
+[0.729s] running install_scripts
+[0.754s] Installing motor_control script to /home/pib/pibros/install/cerebra/lib/cerebra
+[0.754s] writing list of installed files to '/home/pib/pibros/build/cerebra/install.log'
+[0.782s] Invoked command in '/home/pib/pibros/src/cerebra' returned '0': PYTHONPATH=/home/pib/pibros/build/cerebra/prefix_override:/home/pib/pibros/install/cerebra/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cerebra build --build-base /home/pib/pibros/build/cerebra/build install --record /home/pib/pibros/build/cerebra/install.log --single-version-externally-managed
