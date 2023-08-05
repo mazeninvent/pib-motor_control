@@ -12,4 +12,5 @@ source setup.bash
 ros2 run cerebra motor_control
 ```
 Then navigate to local host from a web browser, moving the slider should print on terminal the shown message and if connected to hardware should move motors directly. (Error device has been replaced is given when you are not connecting to motors and only printing to terminal)
+![image](https://github.com/mazeninvent/pib-motor_control/assets/86280313/fbc70325-4b33-4342-b6bb-f1262ded6749)
 ![image](https://github.com/mazeninvent/pib-motor_control/assets/86280313/48f68214-f91d-4250-8c99-cda858ae36b3)
