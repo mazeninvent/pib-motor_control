@@ -15,6 +15,7 @@ UID3 = "XYZ" # Replace with the UID of third Servo Bricklet
 
 To run the node:
 ```
+sudo apt install -y python3-websockets
 mkdir workspace
 cd workspace
 git clone https://github.com/mazeninvent/pib-motor_control.git
