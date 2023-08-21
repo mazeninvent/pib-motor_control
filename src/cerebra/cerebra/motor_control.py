@@ -10,8 +10,6 @@ from tinkerforge.brick_hat import BrickHAT
 from tinkerforge.bricklet_servo_v2 import BrickletServoV2
 import rclpy
 from rclpy.node import Node
-import json
-import websockets
 from std_msgs.msg import String
 
 class Motor_control(Node):
@@ -123,18 +121,6 @@ class Motor_control(Node):
         except Exception as e:
             self.get_logger().warn(f"Error processing message: {str(e)}")
 
-async def rosbridge_listener():
-    url = 'ws://localhost:9090'  
-
-    async with websockets.connect(url) as websocket:
-        while True:
-            message = await websocket.recv()
-            data = json.loads(message)
-            if 'op' in data and data['op'] == 'publish':
-                node = Motor_control()
-                msg = String()
-                msg.data = data['msg']['data']
-                node.callback(msg)
 
 
 def main(args=None):
